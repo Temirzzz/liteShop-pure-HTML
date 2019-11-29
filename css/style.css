@@ -28,7 +28,7 @@ h2 span {
 }
 .container {
 	width: 1200px;
-	margin: 10px auto;
+	margin: 0 auto;
 }
 
 .wrap {
@@ -548,14 +548,39 @@ h2 span {
 	margin-top: 10px;
 	font-size: 12px;
 }
+/* ______________slider-main________________ */
 
+.slider-main {
+	min-height: 650px;
+	
+}
+.slider-main-bg {
+	background-image: url('../img/main-sl-1.jpg');
+	background-size: cover;
+	min-height: 650px;
+}
+.slider-main_size {
+	text-transform: uppercase;
+    color: #ff5912;
+	margin: 0;
+	text-align: left;
+}
+.slider-main__img{
+	width: 25px;
+    height: 25px;
+    margin: 0 12px;
+	position:relative;
+	top: 6px;
+}
 
+.mod {
+	font-weight: bold;
+}
 
-
-
-
-
-
+.mod1 {
+	color: #ff5912;
+	font-weight: bold;
+}
 
 
 
