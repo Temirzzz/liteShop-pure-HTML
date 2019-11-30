@@ -23,10 +23,6 @@ h2 span {
 	color: #ff7013;
 }
 
-.orange {
-	color: #ff7013;
-}
-
 .section-description {
 	text-align: center;
 }
@@ -89,14 +85,6 @@ h2 span {
 	margin-right: 20px;
 }
 
-.site-header__icons__left .phone {
-	width: 20px;
-	height: 20px;
-	position:relative;
-	top: 4px;
-    right: 5px;
-}
-
 .site-header__icons__right {
 	width: 47.5%;
 	margin: 0 1.25%;
@@ -110,9 +98,6 @@ h2 span {
 	height: 30px;
 	width: 75px;
 }
-
-
-
 .site-header__logo a{
 	text-decoration: none;
 	color: #28313b;
@@ -168,10 +153,10 @@ h2 span {
 	text-align: right;
 }
 
-.site-header__icon img{
+.orange {
+	color:#ff7013;;
 	width: 25px;
 	height: 25px;
-	margin: 0 12px;
 }
 
 .site-header_count {
@@ -181,12 +166,12 @@ h2 span {
 .site-header_count::after {
 	content: "6";
 	display: block;
-	height: 16px;
-	width: 16px;
+	height: 14px;
+	width: 14px;
 	background: #34404b;
 	position: absolute;
-	top: -26px;
-	left: 17px;
+	top: -16px;
+	left: 10px;
 	color: #fff;
 	text-align: center;
 	border-radius: 50%;
@@ -400,11 +385,7 @@ h2 span {
 	line-height: 100px;
 	text-align: center;
 }
-.block-com__price img {
-	margin-right: 25px;
-	width: 30px;
-	height: 30px;
-}
+
 /* ___________________________com_________________________________________ */
 
 .best-sales {
@@ -583,13 +564,6 @@ h2 span {
     color: #ff5912;
 	margin: 0;
 	text-align: left;
-}
-.slider-main__img{
-	width: 25px;
-    height: 25px;
-    margin: 0 12px;
-	position:relative;
-	top: 6px;
 }
 
 .mod {
