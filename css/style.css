@@ -27,7 +27,7 @@ h2 span {
 	text-align: center;
 }
 .container {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -94,10 +94,6 @@ h2 span {
 	text-align: right;
 }
 
-.site-header__icons__right img {
-	height: 30px;
-	width: 75px;
-}
 .site-header__logo a{
 	text-decoration: none;
 	color: #28313b;
@@ -235,17 +231,16 @@ h2 span {
 	background: #fff;
 	font-size: 18px;
 	padding-bottom: 40px;
+	margin-bottom: 10px;
 }
 .goods-cart__image {
 	width: 100%;
 	height: auto;
 	padding-top: 30px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
-.goods-cart__image_except {
-	margin-bottom: -15px;
-}
+
 .goods-cart__name {	
 	text-align: center;
 	color: #43525d;
@@ -286,6 +281,11 @@ h2 span {
 	background: #ff7013;
 	border-radius: 50%;
 }
+.site-footer__text a{
+	text-decoration: none;
+	color:#28313b;
+}
+
 .site-footer__text1 {
 	font-size: 12px;
 }
@@ -312,12 +312,10 @@ h2 span {
 	font-size: 16px;
 	color: #ff7013;
 }
-
-.site-footer__logo {
-	width: 80%;
-	height: 20px;
+.site-footer__block170 span i{
+	margin: 0 5px;
+	cursor: pointer;
 }
-
 /* _____________________________footer___________________________ */
 .block-com {
 	width: 47.5%;
@@ -467,6 +465,7 @@ h2 span {
 	border: none;
 	color: #fff;
 	padding: 15px 25px;
+	cursor: pointer;
 }
 
 .block-letter__block270 p{
@@ -575,10 +574,76 @@ h2 span {
 	font-weight: bold;
 }
 
+/*_________________mobile 768__________________________*/
 
+@media screen and (max-width: 768px){
+	.site-header__block370,
+	.site-header__block770,
+	.site-header__block170,
+	.site-goods__block900,
+	.site-goods__block370,
+	.site-goods__block300,
+	.site-goods__block270,
+	.site-goods__block170,
+	.site-footer__block370,
+	.site-footer__block170,
+	.block-letter__block170,
+	.block-letter__block270,
+	.block-letter__block470,
+	.line__block1200 {
+		width: auto;
+		min-height: auto;
+		float: none;
+		margin: 0;
+	}
 
+	.md-1,
+	.md-2,
+	.md-3
+	.md-4,
+	.md-5,
+	.md-6,
+	.md-7,
+	.md-8,
+	.md-9,
+	.md-10,
+	.md-11,
+	.md-12 {
+		float: left;
+		margin: 0 1.25%;
+	}
 
-
-
+	.md-1 {
+		width: 5.8333%;
+	}
+	.md-2 {
+		width: 14.1666%;
+	}
+	.md-3 {
+		width: 22.5%;
+	}
+	.md-4 {
+		width: 30.8333%;
+	}
+	.md-6 {
+		width: 47.5%;
+	}
+	.md-8 {
+		width: 64.1666%;
+	}
+	.md-10 {
+		width: 80.8883%;
+	}
+	.md-12 {
+		width: 97.5%;
+	}
+	.md-center {
+		text-align: center;
+	}
+	.md-marg {
+		margin: 10px 1.25%;
+	}
+	
+}
 
 
