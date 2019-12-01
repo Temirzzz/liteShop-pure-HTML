@@ -13,7 +13,7 @@ p {
 }
 
 h2 {
-	margin: 20px 0;
+	margin: 70px 0 20px 0;
 	font-size: 36px;
 	text-align: center;
 	text-transform: uppercase;
@@ -28,6 +28,11 @@ h2 span {
 .container {
 	width: 1200px;
 	margin: 10px auto;
+}
+.orange {
+	color:#ff7013;;
+	width: 25px;
+	height: 25px;
 }
 
 .row {
@@ -66,6 +71,30 @@ h2 span {
 .site-header__logo {
 	margin-top: 30px;
 }
+
+.site-header__icons__left {
+	width: 47.5%;
+	margin: 0 1.25%;
+	background: #fff;
+	padding-top: 20px;
+	float: left;
+	text-align: left;
+}
+
+.site-header__icons__left p{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.site-header__icons__right {
+	width: 47.5%;
+	margin: 0 1.25%;
+	background: #fff;
+	padding-top: 20px;
+	float: left;
+	text-align: right;
+}
+
 .site-header__logo a{
 	text-decoration: none;
 	color: #28313b;
@@ -118,12 +147,7 @@ h2 span {
 
 .site-header__icon {
 	margin-top: 40px;
-}
-
-.site-header__icon img{
-	width: 25px;
-	height: 25px;
-	margin: 0 12px;
+	text-align: right;
 }
 
 .site-header_count {
@@ -133,12 +157,12 @@ h2 span {
 .site-header_count::after {
 	content: "6";
 	display: block;
-	height: 16px;
-	width: 16px;
+	height: 14px;
+	width: 14px;
 	background: #34404b;
 	position: absolute;
-	top: -26px;
-	left: 17px;
+	top: -16px;
+	left: 10px;
 	color: #fff;
 	text-align: center;
 	border-radius: 50%;
@@ -177,7 +201,7 @@ h2 span {
 }
 
 .site-goods__block270 {
-	width: 22%;
+	width: 22.5%;
 	min-height: 100px;
 	float: left;
 	margin: 0 1.25%;
@@ -192,41 +216,36 @@ h2 span {
 
 .section-description {
 	text-align: center;
+	margin: 20px 0 75px 0;
 }
 .goods-block {
 	margin: 80px 0;
 }
 
-.container {
-	width: 1200px;
-	margin: 10px auto;
-}
 .goods-cart {
 	min-height: 350px;
 	background: #fff;
 	font-size: 18px;
 	padding-bottom: 40px;
-	margin: 0 0 35px 0;
+	margin-bottom: 10px;
 }
 .goods-cart__image {
 	width: 100%;
 	height: auto;
 	padding-top: 30px;
 	text-align: center;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
-.goods-cart__image_except {
-	margin-bottom: -15px;
-}
+
 .goods-cart__name {	
 	text-align: center;
 	color: #43525d;
+	margin: 20px 0 30px 0;
 }
 .goods-cart__cost {
 	text-align: center;
 	color: #ff7013;
 }
-
 /* --------------------------sidebar------------------------------ */
 
 .site-goods__sidebar {
@@ -359,6 +378,11 @@ h2 span {
 	background: #ff7013;
 	border-radius: 50%;
 }
+.site-footer__text a{
+	text-decoration: none;
+	color:#28313b;
+}
+
 .site-footer__text1 {
 	font-size: 12px;
 }
@@ -385,10 +409,9 @@ h2 span {
 	font-size: 16px;
 	color: #ff7013;
 }
-
-.site-footer__logo {
-	width: 80%;
-	height: 20px;
+.site-footer__block170 span i{
+	margin: 0 5px;
+	cursor: pointer;
 }
 /* _______________footer_______________________ */
 

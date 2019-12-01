@@ -18,6 +18,12 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 }
+.orange {
+	color:#ff7013;;
+	width: 25px;
+	height: 25px;
+}
+
 
 h2 span {
 	color: #ff7013;
@@ -147,12 +153,6 @@ h2 span {
 .site-header__icon {
 	margin-top: 40px;
 	text-align: right;
-}
-
-.orange {
-	color:#ff7013;;
-	width: 25px;
-	height: 25px;
 }
 
 .site-header_count {
@@ -643,7 +643,9 @@ h2 span {
 	.md-marg {
 		margin: 10px 1.25%;
 	}
-	
+	.site-footer {
+		padding: 20px 0 20px 0;
+	}
 }
 
 
