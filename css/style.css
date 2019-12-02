@@ -52,6 +52,7 @@ h2 span {
 }
 
 /* ________________________Header_______________________________- */
+
 .site-header {
 	min-height: 180px;
 	background: #fff;
@@ -590,6 +591,7 @@ h2 span {
 	.block-letter__block170,
 	.block-letter__block270,
 	.block-letter__block470,
+	.block-letter,
 	.line__block1200 {
 		width: auto;
 		min-height: auto;
@@ -599,7 +601,7 @@ h2 span {
 
 	.md-1,
 	.md-2,
-	.md-3
+	.md-3,
 	.md-4,
 	.md-5,
 	.md-6,
@@ -623,7 +625,7 @@ h2 span {
 		width: 22.5%;
 	}
 	.md-4 {
-		width: 30.8333%;
+		width: 30.83333333%;
 	}
 	.md-6 {
 		width: 47.5%;
@@ -646,6 +648,10 @@ h2 span {
 	.site-footer {
 		padding: 20px 0 20px 0;
 	}
+	.block-letter {
+		line-height: 50px;
+	}
+	
 }
 
 
